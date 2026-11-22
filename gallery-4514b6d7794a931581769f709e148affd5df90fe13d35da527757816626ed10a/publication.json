@@ -1,0 +1,48 @@
+{
+  "schema": "atlantis-gallery-publication/1",
+  "approval_digest": "4514b6d7794a931581769f709e148affd5df90fe13d35da527757816626ed10a",
+  "files": [
+    {
+      "file": "interaction.json",
+      "bytes": 3349,
+      "sha256": "97c2079e6bf3fe25dae01fb1422e83d814aa67673536060101d88b82b29ad40a",
+      "destination": "creator-pages"
+    },
+    {
+      "file": "preview/flight/controller.js",
+      "bytes": 9015,
+      "sha256": "a619f349c8439bcc2400d5621e8face3678cada7d4aaa0465c8702077f22a6c2",
+      "destination": "creator-pages"
+    },
+    {
+      "file": "preview/flight/flight.json",
+      "bytes": 172,
+      "sha256": "a788061a596e1b3cf990ba8b107178cc541c796c009e632f46952cf9ad9deab5",
+      "destination": "creator-pages"
+    },
+    {
+      "file": "preview/flight/flight_core.py",
+      "bytes": 3645,
+      "sha256": "32aa2840be4d9417ab3acde86faf544e44cf04a3241691e00ed116d9bfe6fb30",
+      "destination": "creator-pages"
+    },
+    {
+      "file": "preview/flight/flight_runtime.py",
+      "bytes": 832,
+      "sha256": "51163129beebe1be97b0fd014a5a1958962dd88cabc904db4d2e21b491f24116",
+      "destination": "creator-pages"
+    },
+    {
+      "file": "preview/flight/helipad.glb",
+      "bytes": 752404,
+      "sha256": "0abb1301e90406c297d72644c0ee46145549f012d956ef141d70b8e36783ea3c",
+      "destination": "creator-pages"
+    },
+    {
+      "file": "preview/helicopter.glb",
+      "bytes": 20162840,
+      "sha256": "8d7cbb9f65bf631ae1284facca4de7b1b9c3bd103df8871d16f2d4d0fe91879f",
+      "destination": "creator-pages"
+    }
+  ]
+}

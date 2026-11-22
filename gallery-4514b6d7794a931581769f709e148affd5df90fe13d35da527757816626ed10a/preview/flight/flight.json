@@ -1,0 +1,12 @@
+{
+  "tailAxis": [
+    0.0,
+    -0.3420201433256687,
+    -0.9396926207859084
+  ],
+  "doors": [
+    "Entry_upper",
+    "Entry_lower",
+    "Rear_cargo_ramp"
+  ]
+}

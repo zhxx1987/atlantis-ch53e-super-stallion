@@ -1,0 +1,163 @@
+{
+  "schema": "atlantis-gallery-interactions/1",
+  "joints": [
+    {
+      "id": "Entry_upper",
+      "node": "Entry_upper",
+      "label": "Upper Entry Door",
+      "kind": "rotation",
+      "axis": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "initial": 0,
+      "limits": [
+        -1.7627825445142729,
+        0
+      ],
+      "speed": 1.9
+    },
+    {
+      "id": "Entry_lower",
+      "node": "Entry_lower",
+      "label": "Lower Entry Door",
+      "kind": "rotation",
+      "axis": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "initial": 0,
+      "limits": [
+        0,
+        1.7976891295541595
+      ],
+      "speed": 1.9
+    },
+    {
+      "id": "Rear_cargo_ramp",
+      "node": "Rear_cargo_ramp",
+      "label": "Rear Cargo Ramp",
+      "kind": "rotation",
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "initial": 0,
+      "limits": [
+        -0.7330382858376184,
+        0
+      ],
+      "speed": 1.9
+    }
+  ],
+  "buttons": [
+    {
+      "id": "Entry_upper_toggle",
+      "label": "Toggle Upper Entry Door",
+      "actions": [
+        {
+          "type": "toggle",
+          "joint": "Entry_upper",
+          "values": [
+            0,
+            -1.7627825445142729
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Entry_lower_toggle",
+      "label": "Toggle Lower Entry Door",
+      "actions": [
+        {
+          "type": "toggle",
+          "joint": "Entry_lower",
+          "values": [
+            0,
+            1.7976891295541595
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Rear_cargo_ramp_toggle",
+      "label": "Toggle Rear Cargo Ramp",
+      "actions": [
+        {
+          "type": "toggle",
+          "joint": "Rear_cargo_ramp",
+          "values": [
+            0,
+            -0.7330382858376184
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close_all_doors",
+      "label": "Close All Doors",
+      "actions": [
+        {
+          "type": "set",
+          "joint": "Entry_upper",
+          "value": -0.0
+        },
+        {
+          "type": "set",
+          "joint": "Entry_lower",
+          "value": 0.0
+        },
+        {
+          "type": "set",
+          "joint": "Rear_cargo_ramp",
+          "value": -0.0
+        }
+      ]
+    },
+    {
+      "id": "half_open_all_doors",
+      "label": "Half Open All Doors",
+      "actions": [
+        {
+          "type": "set",
+          "joint": "Entry_upper",
+          "value": -0.8813912722571364
+        },
+        {
+          "type": "set",
+          "joint": "Entry_lower",
+          "value": 0.8988445647770797
+        },
+        {
+          "type": "set",
+          "joint": "Rear_cargo_ramp",
+          "value": -0.3665191429188092
+        }
+      ]
+    },
+    {
+      "id": "open_all_doors",
+      "label": "Open All Doors",
+      "actions": [
+        {
+          "type": "set",
+          "joint": "Entry_upper",
+          "value": -1.7627825445142729
+        },
+        {
+          "type": "set",
+          "joint": "Entry_lower",
+          "value": 1.7976891295541595
+        },
+        {
+          "type": "set",
+          "joint": "Rear_cargo_ramp",
+          "value": -0.7330382858376184
+        }
+      ]
+    }
+  ]
+}
